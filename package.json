@@ -1,6 +1,6 @@
 {
   "name": "@muniba1234/cli_number_guessing_game",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "A number guessing game from ramzan 4th night class session in typescript",
   "main": "index.js",
   "type": "module",

@@ -5,7 +5,7 @@ import inquirer from "inquirer"
 // 2) user input for guessing number
 
 // 3) compare computer generated number and user input and show result
-const randomNumber = Math.floor(Math.random()*10+1);
+const randomNumber = Math.floor(Math.random()*6+1);
 
 
 const answer = await inquirer.prompt([
@@ -17,7 +17,7 @@ const answer = await inquirer.prompt([
 ])
 
 if(answer.UserGuessNumber===randomNumber){
-    console.log(`\ncongradulations! you guess right number!`)
+    console.log(`\ncongradulations! you guess right number!`);
 }else{
-    console.log(`\nyou guess wrong number!`)
+    console.log(`\nyou guess wrong number!`);
 }
